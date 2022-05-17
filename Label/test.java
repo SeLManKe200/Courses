@@ -1,5 +1,6 @@
 package Label;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
@@ -12,6 +13,9 @@ public class test {
         frame.setVisible(true);
         JLabel label = new JLabel("Bro , do you even code?");
         frame.add(label);
+        ImageIcon image = new ImageIcon("coder.png");
+        label.setIcon(image);
+        label.setHorizontalTextPosition(JLabel.TOP);
 
 
     }
